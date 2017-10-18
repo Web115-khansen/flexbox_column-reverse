@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flex Example Column-Reverse</title>
+    <style>
+        
+        .container{
+        display: flex;
+        display: -webkit-flex;
+        flex-direction: column-reverse;
+        -webkit-flex-direction: column-reverse;
+        width: 800px;
+        height: 1000px;
+            background-color: bisque;
+            margin: auto;
+        }
+        img {
+            width: 90px;
+        }
+        .item {
+            border-bottom-color: black 1px;
+            color: white;
+            width: 90px;
+            height: 68px;
+            margin: auto;
+        }
+    
+        .first {
+            order: 1;
+        }
+        h3 {
+        text-align: center;
+            padding-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    
+   <div class="container">
+    <div class="item"><img src="aquilegia.jpg" alt="Aquilegia" ></div>
+    <h3>Aquilegia 1</h3>
+    <div class="item"><img src="chamomile.jpg" alt="Chamomile"></div>
+    <h3>Chamomile 2</h3>
+    <div class="item"><img src="dahlia.jpg" alt="Dahlia"></div>
+    <h3>Dahlia 3</h3>
+    <div class="item"><img src="flowers.jpg" alt="Flowers"></div>
+    <h3>Flowers 4</h3>
+    <div class="item"><img src="gerbera.jpg" alt="Gerbera"></div>
+    <h3>Gerbera 5</h3>
+    <div class="item"><img src="nymphaea.jpg" alt="Nymphaea"></div>
+    <h3>Nymphaea 6</h3>
+    <div class="item"><img src="primula.jpg" alt="Primula"></div>
+    <h3>Primula  7</h3>
+    </div> 
+    
+    
+</body>
+</html>
